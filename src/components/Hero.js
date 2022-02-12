@@ -29,10 +29,12 @@ const Hero= () => {
       <div className="main-hero-content">
         <img src={logo} alt="Photo of a girl." />
         <div className="hero-text">
-          <h1>asdasdasdsadasd</h1>
+          <h1>
+            THE DIGITAL MARKETING AGENCY WITH <span className="pink-text">ETHICAL</span> APPROACH
+          </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
-            deleniti.
+            Find effective digital reach for your business, powered by human
+            behaviour, driven by data.
           </p>
         </div>
       </div>

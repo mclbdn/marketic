@@ -172,6 +172,7 @@ h6 {
 .hero-text h1 {
   margin-bottom: 2rem;
   font-weight: 400;
+  font-size: 2rem;
 }
 
 .hero-text .pink-text {
@@ -198,7 +199,48 @@ h6 {
 
 .features-section {
   background-color: var(--green-color);
-  height: 100px;
+  padding: 4rem 4rem;
 }
+
+.features-section h1:first-child {
+  text-align: center;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.feature-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.single-feature-container img {
+  max-width: 60px;
+}
+
+.single-feature-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  margin-bottom: 4rem;
+  box-shadow: rgba(245, 164, 218, 0.4) 5px 5px, rgba(245, 164, 218, 0.3) 10px 10px, rgba(245, 164, 218, 0.2) 15px 15px, rgba(245, 164, 218, 0.1) 20px 20px, rgba(245, 164, 218, 0.05) 25px 25px;
+}
+
+.single-feature-container h1 {
+  font-weight: 400;
+}
+
+.single-feature-container img {
+  margin-bottom: 2rem;
+}
+
+.single-feature-container p {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
 
 /* FEATURES SECTION END */

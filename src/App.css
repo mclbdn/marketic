@@ -154,7 +154,7 @@ h6 {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding-top: 4rem;
+  padding: 4rem 0;
 }
 
 .main-hero-content img {
@@ -193,3 +193,12 @@ h6 {
 }
 
 /* HERO END */
+
+/* FEATURES SECTION START */
+
+.features-section {
+  background-color: var(--green-color);
+  height: 100px;
+}
+
+/* FEATURES SECTION END */

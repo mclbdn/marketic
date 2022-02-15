@@ -1,4 +1,5 @@
-import "./App.css";
+// import "./App.css";
+import "./styles/_main.scss"
 import React, { useState, useEffect } from "react";
 import { client } from "./client";
 import Features from "./components/Features";

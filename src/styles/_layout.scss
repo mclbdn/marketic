@@ -150,3 +150,25 @@
 }
 
 // FEATURES END
+
+// CONTACT START
+
+.contact-section {
+  background-color: $black-color;
+  padding: 4rem 4rem;
+
+  h1,
+  p {
+    text-align: center;
+    color: $white-color;
+    margin-bottom: 2rem;
+  }
+
+  h1 {
+    font-weight: 400;
+    font-size: 2rem;
+  }
+
+}
+
+// CONTACT END

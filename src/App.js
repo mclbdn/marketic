@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { client } from "./client";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
+import Contact from "./components/Contact";
 
 function App() {
   const [features, setFeatures] = useState([]);
@@ -22,6 +23,7 @@ function App() {
     <div className="App">
       <Hero />
       <Features features={features} />
+      <Contact />
     </div>
   );
 }

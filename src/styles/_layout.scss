@@ -160,15 +160,68 @@
   h1,
   p {
     text-align: center;
-    color: $white-color;
     margin-bottom: 2rem;
   }
 
   h1 {
+    color: $white-color;
     font-weight: 400;
     font-size: 2rem;
   }
 
+  p {
+    color: $pink-color;
+  }
+
+  .direction-phone-email-container {
+    display: flex;
+    color: $white-color;
+    width: 50%;
+    margin: 0 auto 2rem;
+    justify-content: space-around;
+
+    .single-contact-wrapper {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 25%;
+      word-wrap: break-word;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .icon {
+        font-size: 2rem;
+        color: $white-color;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  form {
+    background-color: $pink-color;
+    width: 50%;
+    margin: 0 auto;
+
+    .input-container {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      width: 50%;
+
+      input,
+      textarea {
+        border: none;
+        border-radius: 5px;
+      }
+    }
+
+    textarea {
+      resize: none;
+    }
+  }
 }
 
 // CONTACT END

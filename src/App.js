@@ -5,10 +5,12 @@ import { client } from "./client";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   const [features, setFeatures] = useState([]);
 
+  // Fetch data from Contentful API
   useEffect(() => {
     client
       .getEntries()
@@ -24,6 +26,7 @@ function App() {
       <Hero />
       <Features features={features} />
       <Contact />
+      <Footer />
     </div>
   );
 }

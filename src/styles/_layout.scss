@@ -212,8 +212,8 @@
       padding: 25px;
       border-radius: 3px;
       box-shadow: rgba(245, 164, 218, 0.4) 5px 5px,
-    rgba(245, 164, 218, 0.3) 10px 10px, rgba(245, 164, 218, 0.2) 15px 15px,
-    rgba(245, 164, 218, 0.1) 20px 20px, rgba(245, 164, 218, 0.05) 25px 25px;
+        rgba(245, 164, 218, 0.3) 10px 10px, rgba(245, 164, 218, 0.2) 15px 15px,
+        rgba(245, 164, 218, 0.1) 20px 20px, rgba(245, 164, 218, 0.05) 25px 25px;
 
       h3 {
         color: $pink-color;
@@ -285,3 +285,47 @@
 }
 
 // CONTACT END
+
+// FOOTER START
+
+footer {
+  background-color: $green-color;
+  color: $black-color;
+
+  .footer-text-wrapper {
+    width: 85%;
+    margin: 0 auto;
+    border-bottom: 1px solid #fff;
+    padding-top: 4rem;
+
+    h3 {
+      font-size: 3rem;
+      line-height: 3.5rem;
+    }
+  }
+
+  .footer-social-media-wrapper {
+    padding-top: 2rem;
+    text-align: center;
+    padding-bottom: 4rem;
+
+    h3 {
+      font-weight: 400;
+      margin-bottom: 2rem;
+    }
+
+    a {
+        margin: 1rem;
+
+      .social-media-icon {
+        font-size: 2.5rem;
+        // margin: 2rem;
+        color: $white-color;
+      }
+
+    }
+
+  }
+}
+
+// FOOTER END

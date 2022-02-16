@@ -206,16 +206,17 @@
     margin: 0 auto;
     position: relative;
 
-    #contact-form {
-      background: linear-gradient(
-        180deg,
-        rgba(42, 164, 123, 1) 0%,
-        rgba(255, 255, 255, 1) 100%
-      );
+    form {
+      background-color: transparent;
+      border: 1px solid $white-color;
       padding: 25px;
       border-radius: 3px;
+      box-shadow: rgba(245, 164, 218, 0.4) 5px 5px,
+    rgba(245, 164, 218, 0.3) 10px 10px, rgba(245, 164, 218, 0.2) 15px 15px,
+    rgba(245, 164, 218, 0.1) 20px 20px, rgba(245, 164, 218, 0.05) 25px 25px;
 
       h3 {
+        color: $pink-color;
         display: block;
         font-weight: 400;
         font-size: 2rem;
@@ -240,7 +241,7 @@
 
           &:active {
             transition: background-color 0.1s ease-in-out;
-            background-color: $green-color;
+            background-color: #f76fca;
             color: $white-color;
           }
         }

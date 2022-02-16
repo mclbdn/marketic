@@ -200,26 +200,85 @@
     }
   }
 
-  form {
-    background-color: $pink-color;
-    width: 50%;
+  .contact-inputs-container {
+    max-width: 400px;
+    width: 100%;
     margin: 0 auto;
+    position: relative;
 
-    .input-container {
-      display: flex;
-      flex-direction: column;
-      margin: 0 auto;
-      width: 50%;
+    #contact-form {
+      background: linear-gradient(
+        180deg,
+        rgba(42, 164, 123, 1) 0%,
+        rgba(255, 255, 255, 1) 100%
+      );
+      padding: 25px;
+      border-radius: 3px;
 
-      input,
-      textarea {
-        border: none;
-        border-radius: 5px;
+      h3 {
+        display: block;
+        font-weight: 400;
+        font-size: 2rem;
       }
-    }
 
-    textarea {
-      resize: none;
+      fieldset {
+        border: medium none !important;
+        margin: 0 0 10px;
+        min-width: 100%;
+        padding: 0;
+        width: 100%;
+
+        button {
+          cursor: pointer;
+          width: 100%;
+          border: none;
+          color: $black-color;
+          background-color: $pink-color;
+          margin: 0 0 5px;
+          padding: 10px;
+          width: 100%;
+
+          &:active {
+            transition: background-color 0.1s ease-in-out;
+            background-color: $green-color;
+            color: $white-color;
+          }
+        }
+
+        textarea {
+          height: 100px;
+          max-width: 100%;
+          resize: none;
+        }
+
+        ::-webkit-input-placeholder,
+        :-moz-placeholder,
+        ::-moz-placeholder,
+        :-ms-input-placeholder {
+          color: $black-color;
+        }
+
+        input,
+        textarea {
+          &:focus {
+            outline: 0;
+            // border: 1px solid pink;
+          }
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea,
+        button {
+          font-weight: 400;
+          width: 100%;
+          border: none;
+          border-radius: 3px;
+          margin: 0 0 5px;
+          padding: 10px;
+        }
+      }
     }
   }
 }

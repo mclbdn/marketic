@@ -32,25 +32,50 @@ const Contact = () => {
           </address>
         </div>
       </div>
-      <form>
-        <h1>Contact Form</h1>
-        <div className="input-container">
-          <label htmlFor="name">Your Name</label>
-          <input type="text" required name="name" id="name" />
-        </div>
-        <div className="input-container">
-          <label htmlFor="email">Email</label>
-          <input type="email" required name="email" id="email" />
-        </div>
-        <div className="input-container">
-          <label htmlFor="phone">Phone</label>
-          <input type="text" required name="phone" id="phone" />
-        </div>
-        <div className="input-container">
-          <label htmlFor="message">Message</label>
-          <textarea name="message" id="message" cols="30" rows="10"></textarea>
-        </div>
-      </form>
+      <div className="contact-inputs-container">
+        <form action="" id="contact-form">
+          <h3>Contact Us</h3>
+          <fieldset>
+            <input
+              placeholder="NAME"
+              type="text"
+              tabindex="1"
+              required
+              autoFocus
+            />
+          </fieldset>
+          <fieldset>
+            <input
+              placeholder="EMAIL"
+              type="email"
+              tabindex="2"
+              required
+              autoFocus
+            />
+          </fieldset>
+          <fieldset>
+            <input
+              placeholder="PHONE NUMBER"
+              type="tel"
+              tabindex="3"
+              required
+              autoFocus
+            />
+          </fieldset>
+          <fieldset>
+            <textarea
+              placeholder="Type your Message Here...."
+              tabindex="5"
+              required
+            ></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit">
+              Submit
+            </button>
+          </fieldset>
+        </form>
+      </div>
     </section>
   );
 };

@@ -17,6 +17,7 @@
       align-items: center;
 
       .logo-link {
+        cursor: pointer;
         text-decoration: none;
         color: inherit;
         outline: 0;
@@ -62,12 +63,13 @@
           }
         }
 
-        a {
+        .nav-link {
+          cursor: pointer;
           text-decoration: none;
           color: inherit;
           outline: 0;
 
-          &:visited {
+          .nav-link:visited {
             text-decoration: none;
             color: inherit;
             outline: 0;

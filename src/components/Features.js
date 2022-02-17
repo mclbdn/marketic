@@ -3,7 +3,7 @@ import SingleFeature from "./SingleFeature";
 
 const Features = ({ features }) => {
   return (
-    <section className="features-section">
+    <section className="features-section" id="section-2">
       <h1>
         WE OFFER THE BEST SERVICES FOR OUR CUSTOMERS
       </h1>

@@ -1,29 +1,55 @@
-import React from 'react'
+import React from "react";
+
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
     <header>
       <nav>
-        <a className="logo-link" href="">
+        <Link
+          delay={200}
+          to="section-1"
+          smooth={true}
+          duration={500}
+          className="logo-link"
+        >
           <li>
             <span className="first-half-span-text">mark</span>
             <span className="second-half-span-text">etic</span>
           </li>
-        </a>
+        </Link>
         <ol>
-          <a href="">
+          <Link
+            delay={200}
+            to="section-1"
+            smooth={true}
+            duration={500}
+            className="nav-link"
+          >
             <li>Home</li>
-          </a>
-          <a href="">
+          </Link>
+          <Link
+            delay={200}
+            to="section-2"
+            smooth={true}
+            duration={500}
+            className="nav-link"
+          >
             <li>Features</li>
-          </a>
-          <a href="">
+          </Link>
+          <Link
+            delay={200}
+            to="section-3"
+            smooth={true}
+            duration={500}
+            className="nav-link"
+          >
             <li>Contact</li>
-          </a>
+          </Link>
         </ol>
       </nav>
     </header>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

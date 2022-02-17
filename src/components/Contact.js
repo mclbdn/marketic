@@ -9,7 +9,7 @@ import {
 
 const Contact = () => {
   return (
-    <section className="contact-section">
+    <section className="contact-section" id="section-3">
       <h1>GET IN TOUCH!</h1>
       <p>Contact us for a quote, help or to join the team.</p>
       <div className="direction-phone-email-container">

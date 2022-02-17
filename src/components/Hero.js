@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 const Hero= () => {
   return (
-    <section className="hero-container">
+    <section className="hero-container" id="section-1">
       <Navbar />
       <div className="main-hero-content">
         <img src={logo} alt="Photo of a girl." />

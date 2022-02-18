@@ -77,6 +77,12 @@
         }
       }
     }
+
+    @media screen and (max-width: $size-small) {
+      nav ol {
+        width: 70%;
+      }
+    }
   }
 
   .main-hero-content {
@@ -138,6 +144,17 @@
         width: 85%;
       }
     }
+
+    @media screen and (min-width: $size-small) and (max-width: $size-large) {
+
+      img {
+        width: 40%;
+      }
+
+      .hero-text {
+        width: 40%;
+      }
+    }
   }
 }
 
@@ -164,10 +181,10 @@
   }
 
   @media screen and (max-width: $size-small) {
-      .feature-container {
-        flex-direction: column;
-      }
+    .feature-container {
+      flex-direction: column;
     }
+  }
 }
 
 // FEATURES END
@@ -177,6 +194,7 @@
 .contact-section {
   background-color: $black-color;
   padding: 4rem 4rem;
+  position: relative;
 
   h1,
   p {
@@ -303,6 +321,28 @@
       }
     }
   }
+
+  @media screen and (max-width: $size-small) {
+    .direction-phone-email-container {
+      flex-direction: column;
+
+      .single-contact-wrapper {
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  @media screen and (min-width: $size-small) and (max-width: $size-medium) {
+    .direction-phone-email-container {
+      flex-direction: column;
+
+      .single-contact-wrapper {
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+    }
+  }
 }
 
 // CONTACT END
@@ -336,7 +376,7 @@ footer {
     }
 
     a {
-        margin: 1rem;
+      margin: 1rem;
 
       .social-media-icon {
         font-size: 2.5rem;
@@ -346,9 +386,7 @@ footer {
           color: $black-color;
         }
       }
-
     }
-
   }
 }
 

@@ -36,20 +36,10 @@ const Contact = () => {
         <form action="" id="contact-form">
           <h3>Contact Us</h3>
           <fieldset>
-            <input
-              placeholder="NAME"
-              type="text"
-              tabindex="1"
-              required
-            />
+            <input placeholder="NAME" type="text" tabindex="1" required />
           </fieldset>
           <fieldset>
-            <input
-              placeholder="EMAIL"
-              type="email"
-              tabindex="2"
-              required
-            />
+            <input placeholder="EMAIL" type="email" tabindex="2" required />
           </fieldset>
           <fieldset>
             <input

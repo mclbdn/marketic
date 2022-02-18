@@ -26,6 +26,10 @@
     text-align: left;
     margin-bottom: 2rem;
   }
+
+  @media screen and (max-width: $size-small) {
+      width: 100%;
+    }
 }
 
 // SINGLE FEATURE CONTAINER END

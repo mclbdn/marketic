@@ -27,7 +27,6 @@ function App() {
 
   useEffect(() => {
     if (!loading) {
-      console.log(data.featuresCollection.items);
       setFeatures(data.featuresCollection.items);
     }
   }, [loading]);

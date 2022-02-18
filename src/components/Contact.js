@@ -41,7 +41,6 @@ const Contact = () => {
               type="text"
               tabindex="1"
               required
-              autoFocus
             />
           </fieldset>
           <fieldset>
@@ -50,7 +49,6 @@ const Contact = () => {
               type="email"
               tabindex="2"
               required
-              autoFocus
             />
           </fieldset>
           <fieldset>
@@ -59,7 +57,6 @@ const Contact = () => {
               type="tel"
               tabindex="3"
               required
-              autoFocus
             />
           </fieldset>
           <fieldset>

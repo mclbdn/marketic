@@ -4,14 +4,12 @@ import "./index.css";
 import App from "./App";
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 
-// NEW START
-
 const REACT_APP_ID = process.env.REACT_APP_ID;
 const REACT_APP_TOKEN = process.env.REACT_APP_TOKEN;
 
 const client = new ApolloClient({
   cache: new InMemoryCache(),
-  uri: "https://graphql.contentful.com/content/v1/spaces/tlwws8dxbah7",
+  uri: `https://graphql.contentful.com/content/v1/spaces/${REACT_APP_ID}`,
   headers: {
     "Authorization": `Bearer ${REACT_APP_TOKEN}`
   }

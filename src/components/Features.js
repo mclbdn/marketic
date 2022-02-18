@@ -12,9 +12,9 @@ const Features = ({ features }) => {
           return (
             <SingleFeature
               key={index}
-              featureName={feature.fields.featureName}
-              featureDescription={feature.fields.featureDescription}
-              featureImage={feature.fields.featureImage}
+              featureName={feature.featureName}
+              featureDescription={feature.featureDescription}
+              featureImage={feature.featureImage}
             />
           );
         })}

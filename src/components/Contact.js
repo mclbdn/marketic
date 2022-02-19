@@ -6,6 +6,7 @@ import {
   faPhone,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
@@ -33,35 +34,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="contact-inputs-container">
-        <form action="" id="contact-form">
-          <h3>Contact Us</h3>
-          <fieldset>
-            <input placeholder="NAME" type="text" tabindex="1" required />
-          </fieldset>
-          <fieldset>
-            <input placeholder="EMAIL" type="email" tabindex="2" required />
-          </fieldset>
-          <fieldset>
-            <input
-              placeholder="PHONE NUMBER"
-              type="tel"
-              tabindex="3"
-              required
-            />
-          </fieldset>
-          <fieldset>
-            <textarea
-              placeholder="Type your Message Here...."
-              tabindex="5"
-              required
-            ></textarea>
-          </fieldset>
-          <fieldset>
-            <button name="submit" type="submit" id="contact-submit">
-              Submit
-            </button>
-          </fieldset>
-        </form>
+        <ContactForm />
       </div>
     </section>
   );

@@ -11,11 +11,9 @@ const client = new ApolloClient({
   cache: new InMemoryCache(),
   uri: `https://graphql.contentful.com/content/v1/spaces/${REACT_APP_ID}`,
   headers: {
-    "Authorization": `Bearer ${REACT_APP_TOKEN}`
-  }
-})
-
-// NEW END
+    Authorization: `Bearer ${REACT_APP_TOKEN}`,
+  },
+});
 
 ReactDOM.render(
   <React.StrictMode>

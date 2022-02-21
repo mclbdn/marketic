@@ -9,7 +9,7 @@ describe("Index page tests", () => {
   });
 
   // Visit index page before each test case
-  beforeEach(() => {
+  before(() => {
     cy.visit("/");
   });
 
@@ -68,6 +68,12 @@ describe("Index page tests", () => {
       cy.get("input[name='email']").should("have.value", "");
       cy.get("input[name='phone']").should("have.value", "");
       cy.get("textarea[name='message']").should("have.value", "");
+    });
+  });
+
+  describe("Footer part tests", () => {
+    it("Renders the footer correctly", () => {
+      cy.get("footer").should("exist");
     });
   });
 });

@@ -9,9 +9,12 @@
   text-align: center;
   width: 40%;
   margin-bottom: 4rem;
-  box-shadow: rgba(245, 164, 218, 0.4) 5px 5px,
-    rgba(245, 164, 218, 0.3) 10px 10px, rgba(245, 164, 218, 0.2) 15px 15px,
-    rgba(245, 164, 218, 0.1) 20px 20px, rgba(245, 164, 218, 0.05) 25px 25px;
+  padding: 2rem;
+  border-radius: 45px;
+  // box-shadow: rgba(245, 164, 218, 0.4) 5px 5px,
+  //   rgba(245, 164, 218, 0.3) 10px 10px, rgba(245, 164, 218, 0.2) 15px 15px,
+  //   rgba(245, 164, 218, 0.1) 20px 20px, rgba(245, 164, 218, 0.05) 25px 25px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 
   img {
     max-width: 90px;
@@ -27,7 +30,7 @@
     margin-bottom: 2rem;
   }
 
-  @media screen and (max-width: $size-small) {
+  @media screen and (max-width: $size-medium) {
     width: 100%;
   }
 }

@@ -15,6 +15,7 @@ const ContactForm = () => {
       id="contact-form"
       onSubmit={handleSubmit}
     >
+      <p>Test</p>
       <h3>Contact Us</h3>
       {formIsValid ? (
         <p className="thank-you-para">Thank you!</p>

@@ -3,15 +3,18 @@ import React, { useState } from "react";
 const ContactForm = () => {
   const [formIsValid, setFormIsValid] = useState(false);
   const handleSubmit = (e) => {
-    e.preventDefault();
     if (e.target.checkValidity()) {
       setFormIsValid(true);
     }
-    // e.target.reset();
+    e.preventDefault();
   };
 
   return (
-    <form action="" id="contact-form" onSubmit={handleSubmit}>
+    <form
+      method="post"
+      id="contact-form"
+      onSubmit={handleSubmit}
+    >
       <h3>Contact Us</h3>
       {formIsValid ? (
         <p className="thank-you-para">Thank you!</p>

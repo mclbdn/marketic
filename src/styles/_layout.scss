@@ -324,6 +324,7 @@
         input[type="tel"],
         textarea,
         button {
+          font-family: inherit;
           font-weight: 400;
           width: 100%;
           border: none;

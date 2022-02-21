@@ -60,14 +60,14 @@ describe("Index page tests", () => {
         .type("Hi, there!")
         .and("have.value", "Hi, there!");
 
+      // Thank you paragraph shouldn't appear yet
+      cy.get(".thank-you-para").should("not.exist")
+
       // Submit button
       cy.get("button[type='submit']").should("exist").click();
 
-      // Fields cleared
-      cy.get("input[name='name']").should("have.value", "");
-      cy.get("input[name='email']").should("have.value", "");
-      cy.get("input[name='phone']").should("have.value", "");
-      cy.get("textarea[name='message']").should("have.value", "");
+      // Thank you paragraph appears
+      cy.get(".thank-you-para").should("exist").and("have.text", "Thank you!");
     });
   });
 

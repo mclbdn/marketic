@@ -7,14 +7,14 @@ const ContactForm = () => {
     if (e.target.checkValidity()) {
       setFormIsValid(true);
     }
-    e.target.reset();
+    // e.target.reset();
   };
 
   return (
     <form action="" id="contact-form" onSubmit={handleSubmit}>
       <h3>Contact Us</h3>
       {formIsValid ? (
-        <p>Thank you</p>
+        <p className="thank-you-para">Thank you!</p>
       ) : (
         <div>
           <fieldset>

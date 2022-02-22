@@ -8,7 +8,7 @@ Jamstack React website using [Contentful CMS](https://www.contentful.com/) to pr
 * Implemented SASS
 * Fully responsive UI
 * [Getform.io](https://getform.io/) providing form endpoint
-* Every single feature in a "feature section" is provided by submissions in the [Contentful CMS](https://www.contentful.com/)
+* Every single feature in a "feature section" is provided by submissions in the [Contentful CMS](https://www.contentful.com/). This API endpoint is queried using GraphQL.
 * Hosted on Netlify
 * e2e tested with [Cypress](https://www.cypress.io/)
 

@@ -60,14 +60,11 @@ describe("Index page tests", () => {
         .type("Hi, there!")
         .and("have.value", "Hi, there!");
 
-      // Thank you paragraph shouldn't appear yet
-      cy.get(".thank-you-para").should("not.exist")
-
       // Submit button
       cy.get("button[type='submit']").should("exist").click();
 
       // Thank you paragraph appears
-      cy.get(".thank-you-para").should("exist").and("have.text", "Thank you!");
+      cy.get(".thank-you-para").should("exist")
     });
   });
 

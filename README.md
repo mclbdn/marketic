@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# marketic
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Jamstack website using [Contentful CMS](https://www.contentful.com/) to provide "features" and [Getform.io](https://getform.io/) collecting form submissions.
 
 ## Available Scripts
 

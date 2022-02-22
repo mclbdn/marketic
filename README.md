@@ -12,3 +12,6 @@ Jamstack React website using [Contentful CMS](https://www.contentful.com/) to pr
 * Hosted on Netlify
 * e2e tested with [Cypress](https://www.cypress.io/)
 
+## Preview video on YouTube
+[<img src="https://raw.githubusercontent.com/mclbdn/marketic/main/screenshot-1.png" width="50%">](https://youtu.be/lPPQzVRnKb8)
+
